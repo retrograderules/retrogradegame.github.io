@@ -1,7 +1,3 @@
-
-html, body, #container{
-}
-
 html {
     background-image: url("../img/cardback2.png");
     background-repeat: no-repeat;
@@ -17,7 +13,6 @@ article{
     padding: 0px 30px;
     color: white;
     background-color: #13202c;
-    
 }
 
 h1 {
@@ -95,4 +90,47 @@ header {
 
 p, li {
     margin-left: 40px;
+}
+
+
+
+@media (max-width: 800px) {
+
+    body {
+        margin: 0;
+    }
+
+    html, ol, ul{
+        padding: 0;
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20pt;
+    }
+    
+    h3 {
+        margin: 5px;
+    }
+
+    html {
+        background-color: #316479;
+        background-image: none;
+    }
+
+    #card {
+        height: 100vh;
+        background-image: url("../img/cardback2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    p {
+        margin-left: 10px;
+    }
+
 }
